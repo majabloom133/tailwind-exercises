@@ -1,10 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-$END$
+
+<!-- This opens the body with light gray background and dark slate text color -->
+<body class="bg-slate-50 text-slate-800">
+<!-- Creates white navigation bar that stays fixed at the top when scrolling -->
+<nav class="sticky top-0 z-50 bg-white border-b border-slate-200">
+    <!-- Centers content, limits the width, adds padding on all sides -->
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+        <a href="#" class="text-xl font-bold text-indigo-600">FlexiPage</a>
+
+        <!-- Holds menu links, hides them on mobile, shows them as row on medium screens -->
+        <div class="hidden md:flex space-x-6 font-medium">
+            <a href="#" class="hover:text-indigo-600 transition-colors">Features</a>
+            <a href="#" class="hover:text-indigo-600 transition-colors">Pricing</a>
+            <a href="#" class="hover:text-indigo-600 transition-colors">Contact</a>
+        </div>
+
+        <!-- Creates solid purple button with padding and rounded corners on the right side -->
+        <a href="#" class="bg-indigo-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-indigo-700 transition-colors">Get Started</a>
+    </div>
+</nav>
+
 </body>
 </html>

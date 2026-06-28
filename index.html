@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,71 +7,71 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<!-- This opens the body with light gray background and dark slate text color -->
+<!-- This opens the body with a light clean background and dark text -->
 <body class="bg-slate-50 text-slate-800">
-<!-- Creates white navigation bar that stays fixed at the top when scrolling -->
-<nav class="sticky top-0 z-50 bg-white border-b border-slate-200">
-    <!-- Centers content, limits the width, adds padding on all sides -->
-    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-        <a href="#" class="text-xl font-bold text-indigo-600">FlexiPage</a>
 
-        <!-- Holds menu links, hides them on mobile, shows them as row on medium screens -->
-        <div class="hidden md:flex space-x-6 font-medium">
-            <a href="#" class="hover:text-indigo-600 transition-colors">Features</a>
-            <a href="#" class="hover:text-indigo-600 transition-colors">Pricing</a>
-            <a href="#" class="hover:text-indigo-600 transition-colors">Contact</a>
+<!-- Creates a white navigation bar that stays fixed at top when scrolling -->
+<nav class="sticky top-0 z-50 bg-white border-b border-slate-200">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+        <a href="#" class="text-xl font-black tracking-tighter text-slate-950">CRUST & CO</a>
+
+        <!-- Menu links with amber hover effect -->
+        <div class="hidden md:flex space-x-8 font-semibold text-sm text-slate-600 uppercase tracking-wider">
+            <a href="#" class="hover:text-amber-600 transition-colors">Menu</a>
+            <a href="#" class="hover:text-amber-600 transition-colors">Hours & Location</a>
+            <a href="#" class="hover:text-amber-600 transition-colors">Contact</a>
         </div>
 
-        <!-- Creates solid purple button with padding and rounded corners on the right side -->
-        <a href="#" class="bg-indigo-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-indigo-700 transition-colors">Get Started</a>
+        <!-- Clean black button for online orders -->
+        <a href="#" class="bg-slate-950 text-white px-5 py-2.5 rounded-lg font-bold hover:bg-slate-800 transition-colors uppercase tracking-wider text-xs">Order Online</a>
     </div>
 </nav>
 
-<!-- Creates main hero container, centering text with large vertical padding -->
+<!-- Main hero section -->
 <header class="max-w-6xl mx-auto px-4 py-16 md:py-24 text-center">
-    <!-- Small uppercase purple badge centered above the heading -->
-    <span class="inline-block text-xs font-bold uppercase tracking-wider text-indigo-600 bg-indigo-50 px-3 py-1 rounded-full mb-4">Introducing FlexiPage</span>
+    <span class="inline-block text-xs font-bold uppercase tracking-wider text-amber-700 bg-amber-50 px-3 py-1 rounded-full mb-4">Restaurant & Café</span>
 
-    <h1 class="text-4xl md:text-6xl font-extrabold text-slate-900 tracking-tight max-w-3xl mx-auto leading-tight">Build beautiful interfaces in seconds</h1>
-    <p class="mt-6 text-lg md:text-xl text-slate-600 max-w-2xl mx-auto">  A modern starter template crafted with Tailwind CSS utility classes. Fully responsive , clean layout, easy to customize</p>
+    <h1 class="text-4xl md:text-6xl font-extrabold text-slate-900 tracking-tight max-w-3xl mx-auto leading-tight">Handcrafted food and drinks made with fresh ingredients</h1>
 
-    <!-- Holds buttons, stacking them on mobile and placing them in a row on larger screens -->
+    <p class="mt-6 text-lg md:text-xl text-slate-600 max-w-2xl mx-auto">We serve fresh food, burgers, and coffee every day. Available for both dine-in and takeout.</p>
+
+    <!-- Operational buttons using amber acceents for primary action -->
     <div class="mt-10 flex flex-col sm:flex-row justify-center items-center gap-4">
-        <a href="#" class="w-full sm:w-auto bg-indigo-600 text-white text-center px-8 py-4 rounded-xl font-semibold shadow-lg shadow-indigo-200 hover:bg-indigo-700 transition-all">Start Free Trial</a>
-        <a href="#" class="w-full sm:w-auto border border-slate-300 bg-white text-slate-700 text-center px-8 py-4 rounded-xl font-semibold hover:bg-slate-50 transition-all">Learn More</a>
+        <a href="#" class="w-full sm:w-auto bg-amber-600 text-white text-center px-8 py-4 rounded-xl font-semibold shadow-lg shadow-amber-100 hover:bg-amber-700 transition-all">View Menu</a>
+        <a href="#" class="w-full sm:w-auto border border-slate-300 bg-white text-slate-700 text-center px-8 py-4 rounded-xl font-semibold hover:bg-slate-50 transition-all">Book a Table</a>
     </div>
 </header>
 
-<!-- Creates new section (solid white background, heavy vertical padding -->
-<section class="bg-white py-16 md:py-24">
+<!-- Information grid section with a solid white background -->
+<section class="bg-white py-16 md:py-24 border-t border-slate-100">
     <div class="max-w-6xl mx-auto px-4">
-
-        <!-- Sets up responsive grid with 1 column on mobile and 3 columns on desktops  -->
+        <!-- Responsive grid layout with columns using an amber accent for icons -->
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
 
-            <!-- Opens first feature card (light background and subtle outline  -->
+            <!-- Card 1:  Ingredients -->
             <div class="p-6 bg-slate-50 rounded-2xl border border-slate-100">
-                <div class="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-xl flex items-center justify-center mb-4 font-bold text-xl">⚡</div>
-                <h3 class="text-xl font-bold text-slate-900 mb-2">Lightning Fast</h3>
-                <p class="text-slate-600">Optimized utility classes make your website load incredibly fast for every user.</p>
+                <div class="w-12 h-12 bg-amber-50 text-amber-600 rounded-xl flex items-center justify-center mb-4 font-bold text-xl">🌾</div>
+                <h3 class="text-xl font-bold text-slate-900 mb-2">Local Ingredients</h3>
+                <p class="text-slate-600">All vegetables, meat, and dairy products are sourced from local suppliers every morning</p>
             </div>
 
+            <!-- Card 2: Hours -->
             <div class="p-6 bg-slate-50 rounded-2xl border border-slate-100">
-                <div class="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-xl flex items-center justify-center mb-4 font-bold text-xl">📱</div>
-                <h3 class="text-xl font-bold text-slate-900 mb-2">Fully Responsive</h3>
-                <p class="text-slate-600">Looks flawless on mobile devices, tablets, laptops and large desktop screens.</p>
+                <div class="w-12 h-12 bg-amber-50 text-amber-600 rounded-xl flex items-center justify-center mb-4 font-bold text-xl">🕒</div>
+                <h3 class="text-xl font-bold text-slate-900 mb-2">Open Every Day</h3>
+                <p class="text-slate-600">Our kitchen is open from 11:00 to 22:00 on weekdays and until 23:00 during weekends.</p>
             </div>
 
+            <!-- Card 3: Location -->
             <div class="p-6 bg-slate-50 rounded-2xl border border-slate-100">
-                <div class="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-xl flex items-center justify-center mb-4 font-bold text-xl">🎨</div>
-                <h3 class="text-xl font-bold text-slate-900 mb-2">Easy to Style</h3>
-                <p class="text-slate-600"> Change colors, fonts, layouts etc directly in HTML without touching the CSS files</p>
+                <div class="w-12 h-12 bg-amber-50 text-amber-600 rounded-xl flex items-center justify-center mb-4 font-bold text-xl">📍</div>
+                <h3 class="text-xl font-bold text-slate-900 mb-2">Central Location</h3>
+                <p class="text-slate-600">You can find out restaurant located right in the city center with easy parking options</p>
             </div>
-
-
         </div>
     </div>
 </section>
 
 </body>
+
 </html>
